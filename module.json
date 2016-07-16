@@ -1,0 +1,19 @@
+{
+  "name": "wearable-reference-design-example-bluetooth",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "Example application demonstrating the Bluetooth on the Wearable Reference Design.",
+  "author": "Marcus Chang <marcus.chang@arm.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-drivers": "^1.0.0",
+    "ble": "^2.0.0",
+    "ble-blocktransfer-mbed": "^6.0.0",
+    "cborg": "^3.0.0",
+    "ble-ancs-client": "^1.1.0",
+    "message-center": "^4.0.0",
+    "message-center-transport-spi-slave": "^4.0.0",
+    "watchdog": "^1.0.0"
+  }
+}
